@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "stringkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RickStreet/StringKit.git",
+      "state" : {
+        "revision" : "54755f47280de670a20bb5fa99f2ea065f410b70",
+        "version" : "1.0.46"
+      }
+    }
+  ],
+  "version" : 2
+}
