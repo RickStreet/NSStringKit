@@ -4,7 +4,7 @@
 //
 //  Created by Rick Street on 10/20/21.
 //
-#if os(OSX)
+
 import Cocoa
 
 public let lightYellow = NSColor(red: 255.0/255.0, green: 255.0/255.0, blue: 198.0/255.0, alpha: 1.0)
@@ -116,4 +116,3 @@ public var attributeSubtitle:  [NSAttributedString.Key: Any] = [
 
 // use superscriptRange and subscriptRange attributed string function
 
-#endif
