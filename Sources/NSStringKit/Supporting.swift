@@ -56,7 +56,7 @@ public var headerAttribute = [ NSAttributedString.Key.foregroundColor: navy,
                        NSAttributedString.Key.font: NSFont(name: "HelveticaNeue-Italic", size: 12.0)!]
 */
 public var headerAttribute: [NSAttributedString.Key: Any] = [
-    .foregroundColor: black,
+    .foregroundColor: NSColor.labelColor,
     .font: fontItalic]
 
 /*
@@ -65,7 +65,7 @@ public var normalAttribute = [ NSAttributedString.Key.foregroundColor: black,
  */
 
 public var normalAttribute: [NSAttributedString.Key: Any] = [
-    .foregroundColor: black,
+    .foregroundColor: NSColor.windowBackgroundColor,
     .font: fontNormal]
 
 
@@ -79,7 +79,7 @@ public var smallAttribute = [ NSAttributedString.Key.foregroundColor: navy, NSAt
 */
 
 public var attributeSmall: [NSAttributedString.Key: Any] = [
-    .foregroundColor: black,
+    .foregroundColor: NSColor.labelColor,
     .font: fontSmall]
 
 public var attributeLabel: [NSAttributedString.Key: Any] = [
@@ -87,7 +87,7 @@ public var attributeLabel: [NSAttributedString.Key: Any] = [
     .font: fontLabel]
 
 public var attributeAxis: [NSAttributedString.Key: Any] = [
-    .foregroundColor: black,
+    .foregroundColor: NSColor.labelColor,
     .font: fontAxis]
 
 public var attributeNormalNavy:  [NSAttributedString.Key: Any] = [
@@ -100,11 +100,11 @@ public var attributeNormalRed:  [NSAttributedString.Key: Any] = [
 
 
 public var attributeNormal:  [NSAttributedString.Key: Any] = [
-    .foregroundColor: black,
+    .foregroundColor: NSColor.labelColor,
     .font: fontNormal]
 
 public var attributeTitle:  [NSAttributedString.Key: Any] = [
-    .foregroundColor: black,
+    .foregroundColor: NSColor.labelColor,
     .font: fontBoldItalic]
 
 public var attributeTitleNavy:  [NSAttributedString.Key: Any] = [
@@ -112,7 +112,7 @@ public var attributeTitleNavy:  [NSAttributedString.Key: Any] = [
     .font: fontBoldItalic]
 
 public var attributeSubtitle:  [NSAttributedString.Key: Any] = [
-    .foregroundColor: black,
+    .foregroundColor: NSColor.labelColor,
     .font: fontBoldItalicNormal]
 
 
