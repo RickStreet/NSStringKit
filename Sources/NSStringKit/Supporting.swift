@@ -29,6 +29,7 @@ public let lightestGray = NSColor(red: 248.0/255.0, green: 248.0/255.0, blue: 24
 public let white = NSColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0)
 public let lightBlue = NSColor(red: 217.0/255.0, green: 239.0/255.0, blue: 255.0/255.0, alpha: 1.0)
 public let mediumBlue = NSColor(red: 149.0/255.0, green: 200.0/255.0, blue: 236.0/255.0, alpha: 1.0)
+public let lapis = NSColor(red: 41.0/255.0, green: 50.0/255.0, blue: 186.0/255.0, alpha: 1.0)
 public let pink = NSColor(red: 255.0/255.0, green: 231.0/255.0, blue: 235.0/255.0, alpha: 1.0)
 public let darkRed = NSColor(red: 137.0/255.0, green: 33.0/255.0, blue: 16.0/255.0, alpha: 1.0)
 public let navy = NSColor(red: 4.0/255.0, green: 30.0/255.0, blue: 141.0/255.0, alpha: 1.0)
@@ -47,7 +48,7 @@ public var dynamicNavy: NSColor {
 
 @available(macOS 11.0, *)
 public var dynamicForestGreen: NSColor {
-    isDarkAqua ? lightForestGreen : forestGreen
+    isDarkAqua ? lapis : forestGreen
 }
 
 @available(macOS 11.0, *)
