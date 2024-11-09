@@ -57,7 +57,7 @@ public var dynamicRed: NSColor {
 
 @available(macOS 11.0, *)
 public var dynamicBlue: NSColor {
-    isDarkAqua ? lightBlue : NSColor.blue
+    isDarkAqua ? mediumBlue : NSColor.blue
 }
 
 public let fontBoldItalic = NSFont(name: "HelveticaNeue-BoldItalic", size: 12.0)!
