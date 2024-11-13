@@ -22,11 +22,14 @@ public var isDarkAqua: Bool {
 }
 
 
+public let darkYellow = NSColor(red: 227.0/255.0, green: 159.0/255.0, blue: 58.0/255.0, alpha: 1.0)
 public let lightYellow = NSColor(red: 255.0/255.0, green: 255.0/255.0, blue: 198.0/255.0, alpha: 1.0)
 public let darkGrey = NSColor(red: 127.0/255.0, green: 127.0/255.0, blue: 127.0/255.0, alpha: 1.0)
 public let lightGrey = NSColor(red: 237.0/255.0, green: 237.0/255.0, blue: 237.0/255.0, alpha: 1.0)
 public let lightestGray = NSColor(red: 248.0/255.0, green: 248.0/255.0, blue: 248.0/255.0, alpha: 1.0)
 public let white = NSColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0)
+public let windowBackgroundLight = NSColor(red: 242.0/255.0, green: 242.0/255.0, blue: 244.0/255.0, alpha: 1.0)
+public let windowBackgroundDark = NSColor(red: 52.0/255.0, green: 54.0/255.0, blue: 56.0/255.0, alpha: 1.0)
 public let lightBlue = NSColor(red: 217.0/255.0, green: 239.0/255.0, blue: 255.0/255.0, alpha: 1.0)
 public let mediumBlue = NSColor(red: 149.0/255.0, green: 200.0/255.0, blue: 245.0/255.0, alpha: 1.0)
 public let brightBlue = NSColor(red: 0.0/255.0, green: 4.0/255.0, blue: 236.0/255.0, alpha: 1.0)
@@ -39,7 +42,6 @@ public let brightNavy = NSColor(red: 40.0/255.0, green: 86.0/255.0, blue: 183.0/
 public let forestGreen = NSColor(red: 0.0/255.0, green: 153.0/255.0, blue: 76.0/255.0, alpha: 1.0)
 public let lightForestGreen = NSColor(red: 191.0/255.0, green: 217.0/255.0, blue: 189.0/255.0, alpha: 1.0)
 public let brightForestGreen = NSColor(red: 68/255.0, green: 133.0/255.0, blue: 50.0/255.0, alpha: 1.0)
-// public let black = NSColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0)
 public let black = NSColor.black
 public let red = NSColor.red
 public let lightRed = NSColor(red: 244.0/255.0, green: 179.0/255.0, blue: 160.0/255.0, alpha: 1.0)
@@ -63,6 +65,24 @@ public var dynamicRed: NSColor {
 @available(macOS 11.0, *)
 public var dynamicBlue: NSColor {
     isDarkAqua ? brightBlue : NSColor.blue
+}
+
+@available(macOS 11.0, *)
+public var dynamicPink: NSColor {
+    print("isDarkAqua \(isDarkAqua)!!!!!!!!!!!!!!!!!!!!!!!")
+    return isDarkAqua ? darkRed : pink
+}
+
+@available(macOS 11.0, *)
+public var dynamicYellow: NSColor {
+    print("isDarkAqua \(isDarkAqua)!!!!!!!!!!!!!!!!!!!!!!!!")
+    return isDarkAqua ? darkYellow : lightYellow
+}
+
+@available(macOS 11.0, *)
+public var dynamicWIndowBackground: NSColor {
+    print("isDarkAqua \(isDarkAqua)!!!!!!!!!!!!!!!!!!!!!!!!")
+    return isDarkAqua ? windowBackgroundDark : windowBackgroundLight
 }
 
 public let fontBoldItalic = NSFont(name: "HelveticaNeue-BoldItalic", size: 12.0)!
