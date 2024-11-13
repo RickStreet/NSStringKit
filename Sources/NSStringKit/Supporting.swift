@@ -80,7 +80,7 @@ public var dynamicYellow: NSColor {
 }
 
 @available(macOS 11.0, *)
-public var dynamicWIndowBackground: NSColor {
+public var dynamicWindowBackgroundColor: NSColor {
     print("isDarkAqua \(isDarkAqua)!!!!!!!!!!!!!!!!!!!!!!!!")
     return isDarkAqua ? windowBackgroundDark : windowBackgroundLight
 }
