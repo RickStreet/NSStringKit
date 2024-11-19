@@ -22,30 +22,36 @@ public var isDarkAqua: Bool {
 }
 
 
-public let darkYellow = NSColor(red: 227.0/255.0, green: 159.0/255.0, blue: 58.0/255.0, alpha: 1.0)
-public let lightYellow = NSColor(red: 255.0/255.0, green: 255.0/255.0, blue: 198.0/255.0, alpha: 1.0)
-public let darkGrey = NSColor(red: 127.0/255.0, green: 127.0/255.0, blue: 127.0/255.0, alpha: 1.0)
-public let lightGrey = NSColor(red: 237.0/255.0, green: 237.0/255.0, blue: 237.0/255.0, alpha: 1.0)
-public let lightestGray = NSColor(red: 248.0/255.0, green: 248.0/255.0, blue: 248.0/255.0, alpha: 1.0)
-public let white = NSColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0)
-public let windowBackgroundLight = NSColor(red: 242.0/255.0, green: 242.0/255.0, blue: 244.0/255.0, alpha: 1.0)
-public let windowBackgroundDark = NSColor(red: 52.0/255.0, green: 54.0/255.0, blue: 56.0/255.0, alpha: 1.0)
 public let lightBlue = NSColor(red: 217.0/255.0, green: 239.0/255.0, blue: 255.0/255.0, alpha: 1.0)
 public let mediumBlue = NSColor(red: 149.0/255.0, green: 200.0/255.0, blue: 245.0/255.0, alpha: 1.0)
 public let brightBlue = NSColor(red: 0.0/255.0, green: 4.0/255.0, blue: 236.0/255.0, alpha: 1.0)
 public let lapis = NSColor(red: 41.0/255.0, green: 50.0/255.0, blue: 186.0/255.0, alpha: 1.0)
-public let pink = NSColor(red: 255.0/255.0, green: 231.0/255.0, blue: 235.0/255.0, alpha: 1.0)
-public let darkRed = NSColor(red: 137.0/255.0, green: 33.0/255.0, blue: 16.0/255.0, alpha: 1.0)
 public let navy = NSColor(red: 4.0/255.0, green: 30.0/255.0, blue: 141.0/255.0, alpha: 1.0)
 public let lightNavy = NSColor(red: 135.0/255.0, green: 155.0/255.0, blue: 181.0/255.0, alpha: 1.0)
 public let brightNavy = NSColor(red: 40.0/255.0, green: 86.0/255.0, blue: 183.0/255.0, alpha: 1.0)
+
+public let lightGreen = NSColor(red: 216.0/255.0, green: 253.0/255.0, blue: 231.0/255.0, alpha: 1.0)
 public let forestGreen = NSColor(red: 0.0/255.0, green: 153.0/255.0, blue: 76.0/255.0, alpha: 1.0)
 public let lightForestGreen = NSColor(red: 191.0/255.0, green: 217.0/255.0, blue: 189.0/255.0, alpha: 1.0)
 public let brightForestGreen = NSColor(red: 68/255.0, green: 133.0/255.0, blue: 50.0/255.0, alpha: 1.0)
-public let black = NSColor.black
+
 public let red = NSColor.red
+public let pink = NSColor(red: 255.0/255.0, green: 231.0/255.0, blue: 235.0/255.0, alpha: 1.0)
+public let darkRed = NSColor(red: 137.0/255.0, green: 33.0/255.0, blue: 16.0/255.0, alpha: 1.0)
 public let lightRed = NSColor(red: 244.0/255.0, green: 179.0/255.0, blue: 160.0/255.0, alpha: 1.0)
 public let brightRed = NSColor(red: 209.0/255.0, green: 59.0/255.0, blue: 62.0/255.0, alpha: 1.0)
+
+public let darkYellow = NSColor(red: 227.0/255.0, green: 159.0/255.0, blue: 58.0/255.0, alpha: 1.0)
+public let lightYellow = NSColor(red: 255.0/255.0, green: 255.0/255.0, blue: 198.0/255.0, alpha: 1.0)
+
+public let darkGrey = NSColor(red: 127.0/255.0, green: 127.0/255.0, blue: 127.0/255.0, alpha: 1.0)
+public let lightGrey = NSColor(red: 237.0/255.0, green: 237.0/255.0, blue: 237.0/255.0, alpha: 1.0)
+public let lightestGray = NSColor(red: 248.0/255.0, green: 248.0/255.0, blue: 248.0/255.0, alpha: 1.0)
+public let white = NSColor(red: 255.0/255.0, green: 255.0/255.0, blue: 255.0/255.0, alpha: 1.0)
+public let black = NSColor.black
+
+public let windowBackgroundLight = NSColor(red: 242.0/255.0, green: 242.0/255.0, blue: 244.0/255.0, alpha: 1.0)
+public let windowBackgroundDark = NSColor(red: 52.0/255.0, green: 54.0/255.0, blue: 56.0/255.0, alpha: 1.0)
 
 @available(macOS 11.0, *)
 public var dynamicNavy: NSColor {
@@ -78,6 +84,13 @@ public var dynamicYellow: NSColor {
     print("isDarkAqua \(isDarkAqua)!!!!!!!!!!!!!!!!!!!!!!!!")
     return isDarkAqua ? darkYellow : lightYellow
 }
+
+@available(macOS 11.0, *)
+public var dynamicLightGreet: NSColor {
+    print("isDarkAqua \(isDarkAqua)!!!!!!!!!!!!!!!!!!!!!!!!")
+    return isDarkAqua ? forestGreen : lightGreen
+}
+
 
 @available(macOS 11.0, *)
 public var dynamicWindowBackgroundColor: NSColor {
