@@ -86,7 +86,7 @@ public var dynamicYellow: NSColor {
 }
 
 @available(macOS 11.0, *)
-public var dynamicLightGreet: NSColor {
+public var dynamicLightGreen: NSColor {
     print("isDarkAqua \(isDarkAqua)!!!!!!!!!!!!!!!!!!!!!!!!")
     return isDarkAqua ? forestGreen : lightGreen
 }
