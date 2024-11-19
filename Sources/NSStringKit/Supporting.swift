@@ -49,7 +49,7 @@ public let brightRed = NSColor(red: 209.0/255.0, green: 59.0/255.0, blue: 62.0/2
 
 @available(macOS 11.0, *)
 public var dynamicNavy: NSColor {
-    isDarkAqua ? brightNavy : navy
+    isDarkAqua ? NSColor.systemIndigo : navy
 }
 
 @available(macOS 11.0, *)
