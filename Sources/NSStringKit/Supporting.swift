@@ -23,6 +23,7 @@ public var isDarkAqua: Bool {
 
 
 public let lightBlue = NSColor(red: 217.0/255.0, green: 239.0/255.0, blue: 255.0/255.0, alpha: 1.0)
+
 public let mediumBlue = NSColor(red: 149.0/255.0, green: 200.0/255.0, blue: 245.0/255.0, alpha: 1.0)
 public let brightBlue = NSColor(red: 0.0/255.0, green: 4.0/255.0, blue: 236.0/255.0, alpha: 1.0)
 public let lapis = NSColor(red: 41.0/255.0, green: 50.0/255.0, blue: 186.0/255.0, alpha: 1.0)
