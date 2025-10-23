@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/RickStreet/StringKit.git",
       "state" : {
-        "revision" : "b9d7a938a3dd620c141f47ab36328878ec3937f5",
-        "version" : "1.0.57"
+        "revision" : "5de913a81e9870090eb966e6fb8206535f9ef665",
+        "version" : "1.0.58"
       }
     }
   ],
